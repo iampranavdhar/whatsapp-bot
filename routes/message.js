@@ -29,11 +29,11 @@ router.post('/', async (req, res, next) => {
     if (query.toLowerCase() === "start" || query.toLowerCase() === "hi" || query.toLowerCase() === "help") {
         twiml.message(stripIndent`
             Hii! Amigo 👋
-            I am your personal Bot 🤖 built with ❤️ by *Pranavdhar*. Here is what I can do for you:
+            I am your Personal Bot 🤖 built with ❤️ by *Pranavdhar*. Here is what I can do for you:
 
                             *😷Covid Related Info😷*
 
-            👉 1. I can send you the vaccination 💉 centers in your area by pincode.
+            👉 1. I can send you the vaccination 💉 centers in your area by Pincode.
             *get centers <pincode>*
 
             ---------------------------------------------------------------
@@ -44,7 +44,7 @@ router.post('/', async (req, res, next) => {
             👉 2. I can grab the youtube video 🎥 Link based on your message 💌.
             *get video <search-term>*
             ---------------------------------------------------------------
-            👉 3. I can find the address 🌎 of the required areas (malls,petrol stations, theaters,..) with in 2km range
+            👉 3. I can find the address 🌎 of the required areas (malls, petrol stations, theaters,..) within 2km range
             *get locations <search-term>*
             ---------------------------------------------------------------
             👉 4. I can get you top 10 repos 📁 by repo name
@@ -65,8 +65,8 @@ router.post('/', async (req, res, next) => {
 
                                             *Note*
 
-            Curious to see the code ? Here is the Link for the code https://github.com/iampranavdhar
-            If you like my work don't forget to Star🌟 the Repo🙂
+            Curious to see the code? Here is the Link for the code https://github.com/iampranavdhar
+            If you like my work consider giving it a Star🌟
 
             Try that out now 👇
         `)
