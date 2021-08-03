@@ -41,11 +41,11 @@ router.post('/', async (req, res, next) => {
 
                                   *🍿Other Works🍿*
 
-            👉 2. I can grab the youtube video 🎥 Link based on your message 💌.
-            *get video <search-term>*
-            ---------------------------------------------------------------
-            👉 3. I can find the address 🌎 of the required areas (malls, petrol stations, theaters,..) within 2km range
+            👉 2. I can find the address 🌎 of the required areas (malls, petrol stations, theaters,..) within 2km range
             *get locations <search-term>*
+            ---------------------------------------------------------------
+            👉 3. I can grab the youtube video 🎥 Link based on your message 💌.
+            *get video <search-term>*
             ---------------------------------------------------------------
             👉 4. I can get you top 10 repos 📁 by repo name
             *get repo <repo-name>*
