@@ -17,7 +17,7 @@ HelpOn is a WhatsApp bot that can help you with many works  built on nodejs and 
 
 ## Demo 🍿
 
-<img src="https://s6.gifyu.com/images/Phone-Mockup-Template-2.gif" width=500px height=500px></img>
+- https://user-images.githubusercontent.com/73348574/128203772-0ffd6880-1dfe-4749-aa73-121aed4a6aab.mp4
 
 ## Setup 🍧
 
